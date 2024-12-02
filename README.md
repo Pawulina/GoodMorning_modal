@@ -17,7 +17,7 @@ This project demonstrates the implementation of a responsive hamburger menu and 
 
 ## Demo
 
-👉 **[Live Demo](#)**  
+👉 **[Live Demo](https://pawulina.github.io/GoodMorning_modal/)**  
 Check out the project in action!
 
 ---
