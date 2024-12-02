@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modal and hamburger</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<div class="overlay"></div>
+		<div class="modal-container">
+			<h2>OPEN ME</h2>
+			<button class="present-btn">
+				<img
+					src="Gift.png"
+					alt="A gift symbolizing button to click"
+					class="present"
+				/>
+			</button>
+			<div class="modal">
+				<span class="close-modal">&times;</span>
+				<iframe
+					src="https://giphy.com/embed/fy9KdlNvM8Jb2"
+					width="480"
+					height="336"
+					style=""
+					frameborder="0"
+					class="giphy-embed"
+					allowfullscreen
+				></iframe>
+				<p><a href="https://giphy.com/gifs/w0w-fy9KdlNvM8Jb2">via GIPHY</a></p>
+				<audio src="brahma-rooster-89888.mp3" class="rooster-sound"></audio>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
